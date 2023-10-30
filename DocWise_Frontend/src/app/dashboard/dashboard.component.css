@@ -1,0 +1,34 @@
+.dashboard {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .search-bar {
+    margin: 20px 0;
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 5px;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .doctor-card {
+    background-color: #F4F4F4;
+    border: 1px solid #DDD;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+  }
+  
+  /* Add more styling as needed */
+  

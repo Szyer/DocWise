@@ -1,0 +1,18 @@
+<div class="dashboard">
+    <div class="search-bar">
+      <input type="text" placeholder="Search for doctors" [(ngModel)]="searchTerm" (keyup.enter)="searchDoctors()">
+      <button (click)="searchDoctors()">Search</button>
+    </div>
+  
+    <div class="doctor-suggestions">
+      <div *ngFor="let doctor of doctorSuggestions">
+        <div class="doctor-card">
+          <h3>{{ doctor.name }}</h3>
+          <p>Specialization: {{ doctor.specialization }}</p>
+          <p>Email: {{ doctor.email }}</p>
+          <!-- Add more doctor information as needed -->
+        </div>
+      </div>
+    </div>
+  </div>
+  
